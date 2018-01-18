@@ -8,4 +8,4 @@ d = difference() (
   sphere(15)
 )
 
-print(scad_render(d))
+scad_render_to_file(d, "generated.scad")
